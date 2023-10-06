@@ -42,12 +42,15 @@ img {
 }
 
 .container { 
-max-width: 1158px;
+/* max-width: 1158px; */
+width: 320px;
 padding:0 15px ;
 margin: 0 auto;
 } 
+ 
 .section {
     padding: 120px 0;
+    width: 100%;
 }
 
 .visually-hidden {
@@ -128,8 +131,7 @@ margin: 0 auto;
 }
 .contacts-adress{
     display: inline-block;
-    margin-left: auto;
-   
+    margin-left: auto;  
 }
 .header-contacts{
     display: flex;
