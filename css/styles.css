@@ -43,7 +43,7 @@ img {
 
 .container { 
 width: 100%;
-padding:0 15px ;
+padding: 0 16px ;
 margin: 0 auto;
 } 
 
@@ -320,7 +320,8 @@ margin: 0 auto;
     gap: 24px;
 }
 .team-item{
-    flex-basis: calc((100%-72px)/4);
+    /* flex-basis: calc((100%-72px)/4); */
+    flex-basis: 100%;
 }
 
 .socials-list:hover{
@@ -424,7 +425,7 @@ margin-bottom: 8px;
     display: flex;
     flex-wrap: wrap;
     column-gap:24px;
-    row-gap:48px ;  
+    row-gap: 48px ;  
 }
 
 .portfolio-card{
@@ -437,7 +438,8 @@ margin-bottom: 8px;
 }
 
 .portfolio-item{
-    max-width:calc((100%-48px)/3);
+    /* max-width:calc((100%-48px)/3); */
+    width:100%;
     position:relative;
     overflow:hidden;
     
