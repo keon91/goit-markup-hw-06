@@ -15,16 +15,21 @@ margin: 0 auto;
 }
 .team-item{
     /* flex-basis: calc((100%-72px)/4); */
-    flex-basis: 100%;
+   
+    
 }
+
 .socials-list { 
     display: flex; 
     max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
     column-gap: 24px; 
-    padding: 8px 24px;
+    
     justify-content: center;   
     } 
 }
+.social-list{margin:8px 16px 32px}
 
 @media screen and (min-width: 768px) {
     .container { 

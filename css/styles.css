@@ -354,7 +354,7 @@ margin-bottom: 8px;
 
 .socials-list { 
     display: flex; 
-    max-width: 264px;
+    /* max-width: 264px; */
     gap:24px; 
     justify-content: center;   
     } 
