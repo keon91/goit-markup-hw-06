@@ -4,7 +4,7 @@
 max-width: 320px;
 padding:0 16px ;
 margin: 0 auto;
-} 
+}   
 .benefits-list{
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ margin: 0 auto;
     align-items: center;
     flex-direction: column;
     column-gap: 72px;
-    padding:0 28px ;
+    /* padding:0 28px ; */
     margin: 0 auto;
 }
 .team-item{
@@ -59,7 +59,7 @@ margin: 0 auto;
 /*MOBILE FINISH*/
 
 /*Special start*/
-@media screen and (min-width: 320px) and (max-width: 1023px) {
+@media screen and (min-width: 320px) and (max-width: 1157px) {
 .benefits-link {
     display: none;
 }
@@ -67,7 +67,7 @@ margin: 0 auto;
 /*Special end*/
 
 /*Tablet start*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
     .container { 
 max-width: 768px;
 margin: 0 auto;
@@ -80,6 +80,7 @@ padding: 0 16px;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    width:100%;
 
 }
 .benefits-item {
@@ -128,37 +129,36 @@ padding: 0 16px;
 /*Tablet FINISH*/
 
 /*Desctop start*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
     .container { 
-max-width: 1024px;
+max-width: 1158px;
 margin: 0 auto;
 padding: 0 16px ;
 } 
 .benefits-list{
-    row-gap: 24px ;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-
-}
-.benefits-item {
-    flex-basis: calc((100% - 24px) / 4) ; 
-    
-}
-.team-list{ /*TODO*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     gap: 24px;
-    flex-wrap:nowrap;
+
+}
+.benefits-item {
+     flex-basis: calc((100% - 72px) / 4) ;  
+   
+}
+.team-list{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+ 
    
 }
 .team-item{
-     flex-basis: calc((100% - 72px) / 4);  
-    /* flex-basis: 100%; */
-   /* width: 264px; */
+     flex-basis: calc((100% - 72px) / 4) ;  
+    
    
 }
 
