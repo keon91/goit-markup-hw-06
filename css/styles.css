@@ -42,7 +42,7 @@ img {
 }
 
 .container { 
-width: 100%;
+max-width: 100%;
 padding: 0 16px ;
 margin: 0 auto;
 } 
@@ -409,22 +409,15 @@ margin-bottom: 8px;
     margin-bottom: 72px;
     
 }
-.portfolio-item{
-    transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .portfolio-item:hover{
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
-
-    
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); 
 }
 .portfolio-list{
    
     display: flex;
     flex-wrap: wrap;
-    column-gap:24px;
+    column-gap: 24px;
     row-gap: 48px ;  
 }
 
@@ -438,15 +431,18 @@ margin-bottom: 8px;
 }
 
 .portfolio-item{
-    /* max-width:calc((100%-48px)/3); */
+    max-width:calc((100%-48px)/3); 
     width:100%;
     position:relative;
     overflow:hidden;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .overlay-text {
     position:absolute;
-    padding: 40px 32px;  /* 164px */
+    padding: 40px 32px; 
     background-color: var(--color-brand);
     color: var(--color-background-second);
     font-family: inherit;
