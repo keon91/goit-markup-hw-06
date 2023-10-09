@@ -84,24 +84,33 @@ margin: 0 auto;
 padding: 0 16px ;
 } 
 
+.team-list{ /*TODO*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap:nowrap;
+   
+}
+.team-item{
+     flex-basis: calc((100% - 72px) / 4);  
+    /* flex-basis: 100%; */
+   /* width: 264px; */
+   
+}
+
 .portfolio-list{
     column-gap: 24px;
     row-gap: 48px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-
+ 
 }
 
 .portfolio-item{
-    
-    /* flex-basis: 360px; */
     flex-basis:calc((100% - 48px) / 3); 
-    /* max-width:calc((100%-48px) / 3) ;     */
-    
-    
 }
 
 }
