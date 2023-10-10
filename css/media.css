@@ -1,9 +1,13 @@
 /*MOBILE START*/
 @media screen and (min-width: 320px){
     .container { 
+min-width: 320px;
 max-width: 320px;
 padding:0 16px ;
 margin: 0 auto;
+
+outline: 2px solid red;
+outline-offset: -2px ;
 }   
 .benefits-list{
     display: flex;
@@ -39,8 +43,7 @@ margin: 0 auto;
 }
 .team-item{
     /* flex-basis: calc((100%-72px)/4); */
-   
-    
+
 }
 
 .socials-list { 
@@ -69,7 +72,7 @@ margin: 0 auto;
 /*Tablet start*/
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .container { 
-max-width: 768px;
+max-width: 736px;
 margin: 0 auto;
 padding: 0 16px;
 } 
