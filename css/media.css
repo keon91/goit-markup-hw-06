@@ -9,6 +9,11 @@ margin: 0 auto;
 outline: 2px solid red;
 outline-offset: -2px ;
 }   
+
+.header-nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
 .benefits-list{
     display: flex;
     flex-direction: column;

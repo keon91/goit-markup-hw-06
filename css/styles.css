@@ -77,6 +77,7 @@ margin: 0 auto;
 .header-nav{
     display: flex;
     align-items: center;
+
     }
 
 .logo {
@@ -183,6 +184,7 @@ margin: 0 auto;
     outline: none;
     border-radius: 50%;
     cursor: pointer;
+    margin-left: auto;
 }
 /* HERO SECTION START 1*/
 
