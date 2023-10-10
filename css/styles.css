@@ -172,6 +172,7 @@ margin: 0 auto;
 .contacts-item {
 
 }
+/*MOBILE MENU START*/
 .menu-toggle {
     min-width: 24px;
     min-height: 24px;
@@ -185,7 +186,58 @@ margin: 0 auto;
     border-radius: 50%;
     cursor: pointer;
     margin-left: auto;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.menu-toggle:hover,
+.menu-toggle:focus {
+    fill:var(--color-pressed);
+
+}
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 72px 16px 40px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-brand-second);
+}
+.mobile-menu-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    border: 1px solid #0000001A;
+    border-radius: 50%;
+    background-color: var(--color-border);
+}
+.mobile-menu-icon {
+}
+.mobile-menu-list {
+}
+.mobile-menu-item {
+}
+.mobile-menu-link {
+}
+.mobile-contacts {
+}
+.mobile-contacts-item {
+}
+.mobile-contacts-link {
+}
+.mobile-socials {
+}
+.mobile-socials-item {
+}
+.mobile-socials-link {
+}
+.mobile-socials-icon {
+}
+
+/*MOBILE MENU FINISH*/
 /* HERO SECTION START 1*/
 
 .hero-section {
