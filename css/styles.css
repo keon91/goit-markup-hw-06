@@ -171,7 +171,19 @@ margin: 0 auto;
 .contacts-item {
 
 }
-
+.menu-toggle {
+    min-width: 24px;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
 /* HERO SECTION START 1*/
 
 .hero-section {
