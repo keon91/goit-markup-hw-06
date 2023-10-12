@@ -685,6 +685,26 @@ margin-bottom: 8px;
     align-items: baseline; */
 
 }
+/*TABLET*/
+@media screen and (min-width: 767.98px) and (max-width: 1157.98px) {
+.inner-footer{
+    padding: 97px 108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    margin-bottom: 72px;
+    /* margin-right: 120px; */
+   
+}
+}
 .footer-box{
     display: flex;
     flex-direction: column;
