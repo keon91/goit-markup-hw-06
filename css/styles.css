@@ -35,10 +35,23 @@ ul, ol {
 	margin: 0;
 	padding: 0;
 }
-
-img {
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+img,
+svg {
 	display: block;
-	width: 100%;
+	max-width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
 }
 
 .container { 
@@ -592,6 +605,7 @@ margin-bottom: 8px;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     
 }
+
 .overlay-text {
     position:absolute;
     padding: 40px 32px; 
@@ -614,7 +628,16 @@ margin-bottom: 8px;
     transform: translateY(0%);
     /* transform:translateY(0); */
 }
+.porfolio-img {
+    margin: 0 auto;
 
+}
+@media only screen and (min-width: 1158px) {
+    .porfolio-img {
+        width: 360px;
+        height: 300px;
+    }
+}
 
 
 .portfolio-subtitle {
