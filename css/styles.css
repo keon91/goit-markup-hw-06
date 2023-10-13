@@ -817,7 +817,9 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.04em; 
 padding-left: 16px;
+
 width: 288px;
+/* width: 100%; не раб*/
 height: 40px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 cursor: pointer;
@@ -860,7 +862,7 @@ color:var(--color-brand-second);
     padding: 97px 108px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     row-gap: 24px;
@@ -868,7 +870,8 @@ color:var(--color-brand-second);
 }
 .footer-box{
     display: flex;
-    margin: 0 auto;
+    align-items: flex-start;
+    /* margin-left: 108px; */
     
     
     
