@@ -821,9 +821,7 @@ padding-left: 16px;
 width: 288px;
 /* width: 100%; не раб*/
 height: 40px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 cursor: pointer;
-opacity: 0.3;
 }
 .sub-input-email::placeholder{
 color:var(--color-brand-second);  
@@ -855,6 +853,28 @@ color:var(--color-brand-second);
 .footer-sub-icon {
     fill: var(--color-brand-second);
     margin-left: 16px;
+}
+/*NON DESCTOP*/
+@media screen and (min-width: 319.98px) and (max-width: 1157.98px) {
+
+.sub-input-email {
+border-radius: 4px;
+border: 1px solid var(--color-brand-second);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: transparent;
+color:var(--color-brand-second);   
+font-size: 12px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.04em; 
+padding-left: 16px;
+
+width: 288px;
+/* width: 100%; не раб*/
+height: 40px;
+cursor: pointer;
+opacity: 0.3;
+}
 }
 /*TABLET*/
 @media screen and (min-width: 767.98px) and (max-width: 1157.98px) {
@@ -917,7 +937,7 @@ color:var(--color-brand-second);
      /* column-gap: 120px; */
 
 }
-.inner-footer:not(:last-child){
+.footer-box:not(:last-child){
         
         
   
@@ -953,6 +973,23 @@ color:var(--color-brand-second);
     display: flex;
     flex-direction: row;
     gap: 24px;
+}
+.sub-input-email {
+border-radius: 4px;
+border: 1px solid var(--color-brand-second);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: transparent;
+color:var(--color-brand-second);   
+font-size: 12px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.04em; 
+padding-left: 16px;
+width: 288px;
+/* width: 100%; не раб*/
+height: 40px;
+cursor: pointer;
+
 }
 } */
 /*END DESCTOP*/
