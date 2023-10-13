@@ -921,6 +921,23 @@ opacity: 0.3;
     flex-direction: row;
     gap: 24px;
 }
+.sub-input-email {
+border-radius: 4px;
+border: 1px solid var(--color-brand-second);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: transparent;
+color:var(--color-brand-second);   
+font-size: 12px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.04em; 
+padding-left: 16px;
+width: 264px;
+/* width: 100%; не раб*/
+height: 40px;
+cursor: pointer;
+
+}
 }
 
 /*END TABLET*/
@@ -985,7 +1002,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.04em; 
 padding-left: 16px;
-width: 288px;
+width: 264px;
 /* width: 100%; не раб*/
 height: 40px;
 cursor: pointer;
