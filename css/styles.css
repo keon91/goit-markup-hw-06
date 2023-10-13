@@ -913,23 +913,27 @@ color:var(--color-brand-second);
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 72px;
-    margin-left: 108px;
+    flex-wrap: nowrap;
+     /* column-gap: 120px; */
+
+}
+.inner-footer:not(:last-child){
+        
+        
+  
+    
 }
 .footer-box{
     display: flex;
-    align-items: flex-start;
-    margin-left: 108px; 
+    align-items: flex-start; 
+    margin-right: 120px;
     
     
     
    
     margin-bottom: 72px;
     /* margin-right: 120px; */
-   
-}
+ }
 .footer-team-socials {
     display: flex;
     flex-direction: column;
@@ -950,7 +954,7 @@ color:var(--color-brand-second);
     flex-direction: row;
     gap: 24px;
 }
-}
+} */
 /*END DESCTOP*/
 
 /*MODAL*/
