@@ -1047,7 +1047,6 @@ cursor: pointer;
     top:0;
     left: 0;
     width: 100%;
-    max-width: 288px;
     height: 100%; 
     inset:0;
     display: flex;
