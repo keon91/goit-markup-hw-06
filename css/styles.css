@@ -242,7 +242,7 @@ margin: 0 auto;
 .mobile-menu-list {
     margin-bottom: auto;
 }
-.nav-link:hover, .nav-link:focus{
+.mobile-menu-list:hover, .mobile-menu-list:focus{
     color:var(--color-pressed);
 }
 
